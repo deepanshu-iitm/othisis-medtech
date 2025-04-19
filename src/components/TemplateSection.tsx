@@ -10,7 +10,6 @@ interface TemplateSectionProps {
 
 const TemplateSection: React.FC<TemplateSectionProps> = ({ 
   section,
-  isDragging = false
 }) => {
   const {
     attributes,
